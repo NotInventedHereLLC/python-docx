@@ -2,6 +2,7 @@
 *~
 dist
 *.docx
+/*.egg-info/
 MANIFEST
 *.pyc
 README.html
