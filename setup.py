@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-
 try:
     from setuptools import setup
 except ImportError:    
@@ -13,7 +12,8 @@ for scheme in INSTALL_SCHEMES.values():
 
 setup(name='docx',
       version='0.2.0',
-      install_requires=['lxml', 'PIL'],
+      zip_safe=False,
+      install_requires=['lxml'], # removed explicit dependency on PIL
       description='The docx module creates, reads and writes Microsoft Office Word 2007 docx files',
       author='Mike MacCana',
       author_email='python.docx@librelist.com',

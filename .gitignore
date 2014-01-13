@@ -1,4 +1,5 @@
 .coverage
+*~
 dist
 *.docx
 MANIFEST
@@ -7,3 +8,5 @@ README.html
 _scratch
 template/word/media
 .tox
+build/
+*.egg-info/
